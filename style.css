@@ -1,0 +1,26 @@
+*{margin:10px 50px;}
+.this_is_7_5{
+    border:2px solid grey;
+    background-color: lemonchiffon;
+}
+.box{
+    background-color: khaki;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding:10px;
+    transform:rotate(45deg) scale(0.5) translate(10px);
+}
+.this_is_7_6{
+    background-color: lightgray;
+    height: 200px;
+    width:200px;
+    transition: width 3s, height 3s, transform 3s;
+}
+.this_is_7_6:hover{
+    background-color: lightblue;
+    height: 300px;
+    width:300px;
+    transform: rotate(180deg);
+    border-radius: 10px;
+}
