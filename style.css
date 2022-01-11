@@ -24,3 +24,10 @@
     transform: rotate(180deg);
     border-radius: 10px;
 }
+.this_is_7_7{
+    border:1px solid green;
+}
+.this_is_7_7:hover img{
+    transform: rotate(-40deg);
+    transform-origin: top right;
+}
